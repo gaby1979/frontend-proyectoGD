@@ -231,7 +231,7 @@ text-align: center;
     width: 90%;
   }
   .formulario {
-    width: *0%;
+    width: 0%;
     min-width: 400px;
   }
 }
