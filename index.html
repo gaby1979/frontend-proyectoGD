@@ -1,24 +1,81 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Joyería GD</title>
-  <link rel="stylesheet" href="css/styles.css" />
+  <!-- link CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
+
 <body>
-  <header>
-    <h1>Bienvenido a mi sitio</h1>
+  <header class="header">  
+    <!-- BARRA NAVEGACIÓN -->
+    <nav class="navbar">
+      <p class="logo">
+        <a href="./index.html"><i class="fas fa-gem"></i> GD</a>
+      </p>
+      <ul>
+        <li>
+          <a href="./index.html">Home</a>
+        </li>
+        <li>
+          <a href="./pages/contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </nav>
   </header>
 
   <main>
-    <section>
-      <p>Este es el contenido principal.</p>
-    </section>
+      <h1>Bienvenido a mi tienda online</h1>
+       <p class="bienvenida">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quas
+        optio dolorum quos pariatur sint culpa vitae incidunt sequi delectus
+        repellat minima quam, consectetur eaque voluptate eum veniam debitis
+        nostrum, assumenda cum! Blanditiis nam qui natus molestias. Porro
+        tempora soluta fuga rem quaerat explicabo. Culpa laboriosam a vitae
+        quisquam nesciunt.
+      </p>
+      <section class="productos-home">
+        <h2>Algunos de nuestros productos</h2>
+
+        <div class="contenedor-tarjetas">
+          <article class="tarjeta-producto">
+            <img src="./img/arc.png" alt="Portada de juego The Finals" />
+            <h3>The Finals game</h3>
+            <p>Precio: $40</p>
+          </article>
+
+          <article class="tarjeta-producto">
+            <img src="./img/Drifter.png" alt="DLC juego The Finals" />
+            <h3>DLC: Drifter</h3>
+            <p>Precio: $10</p>
+          </article>
+
+          <article class="tarjeta-producto">
+            <img src="./img/ivada.png" alt="DLC de juego The Finals" />
+            <h3>DLC: IVADA</h3>
+            <p>Precio: $10</p>
+          </article>
+          <article class="tarjeta-producto">
+            <img src="./img/Ops.png" alt="DLC de juego The Finals" />
+            <h3>DLC: Ops set</h3>
+            <p>Precio: $10</p>
+          </article>
+        </div>
+      </section>
   </main>
 
-  <footer>
-    <p>&copy; 2025 Mi Empresa</p>
+  <footer class="footer">
+    <p>2025 | Joyería GD</p>
   </footer>
 </body>
 </html>
